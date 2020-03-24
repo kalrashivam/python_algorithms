@@ -17,5 +17,5 @@ arr = [1, 9, 8, 4, 0, 0, 2, 7, 0, 6, 0, 9]
 n = len(arr)
 # Sends the array and the size as arguments
 pushZerosToEnd(arr, n)
-print("Array after pushing all zeros to end of array:") 
+print("Array after pushing all zeros to end of array:")
 print(arr)
