@@ -1,23 +1,24 @@
+# Function to left rotate an array using an temporary array.
 def leftRotate(arr, d, n):
+    # Temp array to save d elements
     temp = list()
 
+    # moving d elements to a temporary array
     for i in range(d):
        temp.append(arr[i])
 
+    # rotating the array
     for z in range(d):
-        print(z)
         j = 0
-        while j < n:
-            print(j)
-            j += 1
+        while j < n - 1:
             arr[j] = arr[j+1]
+            j += 1
 
-    printArray(arr, 7)
-    # i = 0
-    # while d>0:
-    #     arr[(n-d) + i - 1] = temp[i]
-    #     i += 1
-    #     d -= 1
+    # adding the elements in the temp array to the end of the main array
+    i = 0
+    while i < d:
+        arr[(n-d)+i] = temp[i]
+        i += 1
 
 # utility function to print an array */
 def printArray(arr, size):
@@ -27,4 +28,4 @@ def printArray(arr, size):
 # Driver program to test above functions */
 arr = [1, 2, 3, 4, 5, 6, 7]
 leftRotate(arr, 2, 7)
-# printArray(arr, 7)
+printArray(arr, 7)
