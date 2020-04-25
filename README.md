@@ -5,3 +5,4 @@ This repository contains all the python questions I have solved on the go
 1. Moving all 0's from anywhere in the array to the end.
 2. Rotating an array by the factor of d.
 3. Rotating an array by the factor of d using temporary array.
+4. Reversing a list.
