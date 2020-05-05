@@ -6,4 +6,5 @@ This repository contains all the python questions I have solved on the go
 2. Rotating an array by the factor of d.
 3. Rotating an array by the factor of d using temporary array.
 4. Reversing a list.
-5. Rearrange_sorted_array_to_max_min_form.
+5. Rearrange sorted array to max min_form.
+6. find the smallest missing number
