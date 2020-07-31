@@ -8,3 +8,4 @@ This repository contains all the python questions I have solved on the go
 4. Reversing a list.
 5. Rearrange sorted array to max min_form.
 6. find the smallest missing number
+7. Longest Consecutive Sequence
