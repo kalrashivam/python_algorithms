@@ -10,3 +10,6 @@ This repository contains all the python questions I have solved on the go
 6. find the smallest missing number
 7. Longest Consecutive Sequence
 8. Return array permutations
+9. Given an array containing only positive integers,
+   return if you can pick two integers from the array which cuts the array
+   into three pieces such that the sum of elements in all pieces is equal.
